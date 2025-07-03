@@ -6,10 +6,10 @@ A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript.
 
 ## Features
 
-1. Player vs Player mode  
-2. Clean and responsive UI  
-3. Game restart option  
-4. Lightweight and beginner-friendly code
+✅ Player vs Player mode  
+✅ Clean and responsive UI  
+✅ Game restart option  
+✅ Lightweight and beginner-friendly code
 
 ---
 
