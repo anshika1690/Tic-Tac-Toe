@@ -10,22 +10,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{  
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width:400px;
+    width: 400px;
     background-color: rgb(247, 237, 217);
-    height:600px;
-    padding:30px;
+    height: 600px;
+    padding: 30px;
     border-radius: 30px;
     flex-direction: column;
-    gap:15px;
+    gap: 15px;
     box-shadow: 0px 0px 10px 6px crimson;
     
 }
 .board{ 
     display:grid;
-    grid-template-rows: 120px,120px,120px;
+    grid-template-rows: 120px 120px 120px;
     grid-template-columns: 120px 120px 120px;
     gap:10px;
     margin-bottom: 20px;
@@ -102,3 +102,19 @@ button:active{
     position: absolute;
     top:50px;
 }
+
+@media (max-width: 768px) {
+     .boy, .girl{
+        display: none;
+     }
+     .container{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+     }
+     .whole{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+ }
